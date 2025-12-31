@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STM32 via ST-Link",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "stlink",
+            "executable": "E:/Workspace/FreeRTOS/Build/main.elf",
+            "device": "STM32F446RE",
+            "runToEntryPoint": "main",
+            "preLaunchTask": "Build ELF and HEX",
+            "svdFile": "C:/STM32F4_svd/STM32F4_svd_V2.0/STM32F446.svd",
+            "cwd": "E:/Workspace/FreeRTOS"
+        }
+    ]
+}

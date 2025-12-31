@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build ELF and HEX",
+            "type": "shell",
+            "command": "cmd.exe",
+            // "args": [
+            //     "/c",
+            //     "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe -mcpu=cortex-m4 -mthumb -Wall -O0 -g -ffreestanding -nostdlib -Wl,-T\"E:/Workspace/Pratik_Workspace/Setup_Cortex_Debug/linker_script.ld\" E:/Workspace/Pratik_Workspace/Setup_Cortex_Debug/startup_stm32f446xx.s E:/Workspace/Pratik_Workspace/Setup_Cortex_Debug/main.c -o E:/Workspace/Pratik_Workspace/Setup_Cortex_Debug/output.elf && C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-none-eabi-objcopy.exe -O ihex E:/Workspace/Pratik_Workspace/Setup_Cortex_Debug/output.elf E:/Workspace/Pratik_Workspace/Setup_Cortex_Debug/output.hex"
+            // ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
